@@ -1,0 +1,52 @@
+// Google Font
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap');
+
+// Main
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.container {
+  h1 {
+    font-weight: 600;
+  }
+  .input-group {
+    .form-control {
+      width: 750px !important;
+    }
+    margin-top: 30px;
+  }
+  .isi-note {
+    p {
+      cursor: pointer;
+      text-align:center; 
+      vertical-align: middle;
+      display: table-cell;
+    }
+    .btn-danger {
+      position: relative;
+      top: 35%;
+      right: 17px;
+    }
+    #cekIsi {
+      position: relative;
+      top: 35.5%;
+      left: 17px;
+    }
+    width:400px;
+    height:100px;  
+    display: table;
+    margin-left: 220%;
+    margin-bottom: 20px;
+    border: 1px solid #23272A;
+    border-radius: 10px;
+  }
+}
+
+.coret {
+  text-decoration: line-through;
+}
+
+.warna {
+  background-color: #bedbbb;
+}

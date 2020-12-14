@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap");
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.container h1 {
+  font-weight: 600;
+}
+
+.container .input-group {
+  margin-top: 30px;
+}
+
+.container .input-group .form-control {
+  width: 750px !important;
+}
+
+.container .isi-note {
+  width: 400px;
+  height: 100px;
+  display: table;
+  margin-left: 220%;
+  margin-bottom: 20px;
+  border: 1px solid #23272A;
+  border-radius: 10px;
+}
+
+.container .isi-note p {
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.container .isi-note .btn-danger {
+  position: relative;
+  top: 35%;
+  right: 17px;
+}
+
+.container .isi-note #cekIsi {
+  position: relative;
+  top: 35.5%;
+  left: 17px;
+}
+
+.coret {
+  text-decoration: line-through;
+}
+
+.warna {
+  background-color: #bedbbb;
+}
+/*# sourceMappingURL=main.css.map */
